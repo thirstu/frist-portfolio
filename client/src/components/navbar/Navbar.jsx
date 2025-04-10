@@ -12,7 +12,7 @@ const Navbar = () => {
               <li><a href="#contact" className="hover:text-blue-500">Contact</a></li>
             </ul>
             
-      <Dark_Mode/>
+      {/* <Dark_Mode/> */}
 
             
           </div>

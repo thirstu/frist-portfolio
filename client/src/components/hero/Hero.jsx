@@ -1,5 +1,7 @@
 import React from 'react'
 import profilePic from "../../assets/photo.jpg"
+import resume from "../../assets/Ajay Nishad (1).pdf"
+
 
 const Hero = () => {
     return (
@@ -22,14 +24,17 @@ const Hero = () => {
         </div>
     
         {/* Profile Image Section */}
-        <div className="mb-8 md:mb-0">
+        <div className="mb-8 md:mb-0 profile_box">
           <img
             src={profilePic}
             alt="Ajay Nishad"
             className="w-40 h-40 md:w-60 md:h-60 rounded-full object-cover border-4 border-indigo-500 shadow-lg"
           />
+          <a href={resume} download className="...">Download Resume</a>
         </div>
+        
       </div>
+      
     </section>
       );
 }
